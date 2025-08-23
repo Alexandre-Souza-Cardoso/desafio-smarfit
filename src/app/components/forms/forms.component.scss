@@ -40,6 +40,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  gap: 8px;
   
 
   padding: 8px 4px;
@@ -51,6 +52,7 @@
 
 .form-group .radio-wrapper:nth-last-child(3) {
   border-bottom: 1px solid var(--light-text);
+  margin-bottom: 32px;
 }
 
 .form-group .radio-wrapper span {
@@ -99,7 +101,7 @@
 }
 
 .form-group .checkbox-wrapper input[type="checkbox"] {
-  margin-right: 4px;
+  margin-right: 6px;
 }
 
 @media (min-width: 768px) {
